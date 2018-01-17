@@ -1,0 +1,96 @@
+   0.001 2018-01-17 14:10:35; Factorio 0.15.40 (build 30950, linux64, headless)
+   0.002 Operating system: Linux
+   0.002 Program arguments: "/opt/factorio/bin/x64/factorio" "--start-server" "my-save.zip" 
+   0.002 Read data path: /opt/factorio/data
+   0.002 Write data path: /opt/factorio
+   0.002 Binaries path: /opt/factorio/bin
+   0.016 System info: [CPU: Intel(R) Xeon(R) CPU E5-2650L v3 @ 1.80GHz, 1 core, RAM: 992MB]
+   0.017 Running in headless mode
+   0.020 Loading mod core 0.0.0 (data.lua)
+   0.027 Loading mod base 0.15.40 (data.lua)
+   0.155 Loading mod base 0.15.40 (data-updates.lua)
+   0.197 Checksum for core: 3865022077
+   0.197 Checksum of base: 1503927233
+   0.323 Verbose ModManager.cpp:388: Time to load mods: 0.306383
+   0.338 Info PlayerData.cpp:58: Local player-data.json available, timestamp 1516197179
+   0.338 Info PlayerData.cpp:65: Cloud player-data.json unavailable
+   0.340 Custom inputs active: 0
+   0.341 Factorio initialised
+   0.341 Warning FileUtil.cpp:441: my-save.zip not found; using /opt/factorio/saves/my-save.zip
+   0.341 Info ServerSynchronizer.cpp:28: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   0.341 Info ServerMultiplayerManager.cpp:671: mapTick(-1) changing state from(Ready) to(PreparedToHostGame)
+   0.341 Info ServerMultiplayerManager.cpp:671: mapTick(-1) changing state from(PreparedToHostGame) to(CreatingGame)
+   0.353 Loading map /opt/factorio/saves/my-save.zip: 1080018 bytes.
+   0.382 Loading Level.dat: 1635490 bytes.
+   0.413 Info Scenario.cpp:135: Map version 0.15.40-0
+   0.551 Info BlueprintLibrary.cpp:226: Loaded library shelves:
+   0.551 Info BlueprintLibrary.cpp:794: Game shelf: playerIndex = 65535, nextRecordID = 0; timestamp = 1516196919; records:
+   0.551 Info BlueprintLibrary.cpp:796: Player shelf: playerIndex = 0, nextRecordID = 1; timestamp = 1516197058; records: (id: 0, 0; label: "", preview: false, empty: false; book)
+   0.552 Verbose Scenario.cpp:140: Loading level.dat finished.
+   0.554 Info BlueprintLibrary.cpp:49: Loaded external blueprint storage: playerIndex = 65535, nextRecordID = 0; timestamp = 1516198236; records:
+   0.554 Loading script.dat: 190 bytes.
+   0.556 Checksum for script /opt/factorio/temp/currently-playing/control.lua: 282129324
+   0.557 Verbose Scenario.cpp:250: Map setup finished.
+   0.559 Info UDPSocket.cpp:27: Opening socket at (0.0.0.0:34197)
+   0.559 Hosting game at 0.0.0.0:34197
+   0.560 Info HttpSharedState.cpp:44: Downloading https://auth.factorio.com/generate-server-padlock-2
+   0.561 Verbose RouterBase.cpp:50: Started router thread.
+   0.613 Info HttpSharedState.cpp:111: Status code: 200
+   0.613 Info AuthServerConnector.cpp:108: Obtained serverPadlock for serverHash (jzq3ihlmyGBWGrCKNX3pYpOv1dlpbU0Y) from the auth server.
+   0.613 Info ServerMultiplayerManager.cpp:671: mapTick(6368) changing state from(CreatingGame) to(InGame)
+   0.633 Error InterruptibleStdioStream.cpp:53: Reading stdin failed
+  90.580 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(108.17.5.7:64367)
+  90.580 Refusing connection for address (108.17.5.7:64367), username (MisterFister803). UserVerificationMissing
+  90.832 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(108.17.5.7:62628)
+  90.832 Info ServerRouter.cpp:390: Replying to connectionRequest for address(108.17.5.7:62628).
+  90.832 Info ServerSynchronizer.cpp:552: nextHeartbeatSequenceNumber(2681) adding peer(1)
+  90.849 Info ServerMultiplayerManager.cpp:671: mapTick(6368) changing state from(InGame) to(InGameSavingMap)
+  90.851 Verbose Scenario.cpp:496: Saving game as /opt/factorio/temp/mp-save-0
+  90.894 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2682) Processing synchronizer action(ClientChangedState) from peer(1)
+  90.894 Info ServerMultiplayerManager.cpp:755: mapTick(6368) received stateChanged peerID(1) oldState(Ready) newState(ConnectedWaitingForMap)
+  91.011 Verbose Scenario.cpp:589: Time to save game: 0.160789
+  91.022 Info ServerMultiplayerManager.cpp:815: MapTick(6368) Serving map(/opt/factorio/temp/mp-save-0.zip) for peer(1) size(1080194) crc(1939240123)
+  91.022 Info ServerMultiplayerManager.cpp:671: mapTick(6368) changing state from(InGameSavingMap) to(InGame)
+  91.072 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2687) Processing synchronizer action(ClientChangedState) from peer(1)
+  91.072 Info ServerMultiplayerManager.cpp:755: mapTick(6368) received stateChanged peerID(1) oldState(ConnectedWaitingForMap) newState(ConnectedDownloadingMap)
+  91.073 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2687) Processing synchronizer action(MapDownloadingProgressUpdate) from peer(1)
+  91.106 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2688) Processing synchronizer action(MapDownloadingProgressUpdate) from peer(1)
+  91.140 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2689) Processing synchronizer action(MapDownloadingProgressUpdate) from peer(1)
+  91.176 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2690) Processing synchronizer action(MapDownloadingProgressUpdate) from peer(1)
+  91.210 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2691) Processing synchronizer action(MapDownloadingProgressUpdate) from peer(1)
+  91.244 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2692) Processing synchronizer action(MapDownloadingProgressUpdate) from peer(1)
+  91.277 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2693) Processing synchronizer action(ClientChangedState) from peer(1)
+  91.278 Info ServerMultiplayerManager.cpp:755: mapTick(6368) received stateChanged peerID(1) oldState(ConnectedDownloadingMap) newState(ConnectedLoadingMap)
+  91.278 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2693) Processing synchronizer action(MapLoadingProgressUpdate) from peer(1)
+  91.278 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2693) Processing synchronizer action(MapDownloadingProgressUpdate) from peer(1)
+  91.414 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2697) Processing synchronizer action(MapLoadingProgressUpdate) from peer(1)
+  91.448 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2698) Processing synchronizer action(MapLoadingProgressUpdate) from peer(1)
+  91.482 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2699) Processing synchronizer action(MapLoadingProgressUpdate) from peer(1)
+  91.482 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2699) Processing synchronizer action(ClientChangedState) from peer(1)
+  91.482 Info ServerMultiplayerManager.cpp:755: mapTick(6379) received stateChanged peerID(1) oldState(ConnectedLoadingMap) newState(TryingToCatchUp)
+  91.482 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2699) Processing synchronizer action(ClientChangedState) from peer(1)
+  91.482 Info ServerMultiplayerManager.cpp:755: mapTick(6379) received stateChanged peerID(1) oldState(TryingToCatchUp) newState(WaitingForCommandToStartSendingTickClosures)
+  91.482 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2699) Processing synchronizer action(CatchingUpProgressUpdate) from peer(1)
+  91.482 Info GameActionHandler.cpp:3320: MapTick (6379) processed PlayerJoinGame peerID(1) playerIndex(0) mode(connect ) 
+  91.585 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(2702) Processing synchronizer action(ClientChangedState) from peer(1)
+  91.585 Info ServerMultiplayerManager.cpp:755: mapTick(6386) received stateChanged peerID(1) oldState(WaitingForCommandToStartSendingTickClosures) newState(InGame)
+ 100.144 Verbose ServerSynchronizer.cpp:739: Peer 1 decreasing latency from 32 to 12 as buffer was always bigger than 21
+ 105.140 Verbose ServerSynchronizer.cpp:739: Peer 1 decreasing latency from 12 to 11 as buffer was always bigger than 2
+ 105.278 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(3102) Processing synchronizer action(PeerDisconnect) from peer(1)
+ 105.278 Info ServerMultiplayerManager.cpp:859: Disconnect notification for peer (1)
+ 105.278 Verbose ServerSynchronizer.cpp:422: nextHeartbeatSequenceNumber(3102) Processing synchronizer action(ClientChangedState) from peer(1)
+ 105.278 Info ServerMultiplayerManager.cpp:755: mapTick(7207) received stateChanged peerID(1) oldState(InGame) newState(DisconnectScheduled)
+ 105.295 Info ServerSynchronizer.cpp:571: nextHeartbeatSequenceNumber(3103) removing peer(1).
+2083.485 Received SIGTERM, shutting down
+2083.485 Info MainLoop.cpp:315: Saving map as /opt/factorio/saves/my-save.zip
+2083.485 Verbose Scenario.cpp:496: Saving game as /opt/factorio/saves/my-save
+2083.487 Warning WriteFileGuard.cpp:44: Writing /opt/factorio/saves/my-save.zip failed; previous version (if any) should still be available
+2083.491 Error Util.cpp:62: Opening package /opt/factorio/saves/my-save.tmp.zip for writing failed
+2083.510 Info ServerMultiplayerManager.cpp:116: Disconnecting multiplayer connection.
+2083.510 Info ServerMultiplayerManager.cpp:671: mapTick(7209) changing state from(InGame) to(DisconnectingScheduled)
+2083.518 Info ServerMultiplayerManager.cpp:140: Quitting multiplayer connection.
+2083.518 Info ServerMultiplayerManager.cpp:671: mapTick(-1) changing state from(DisconnectingScheduled) to(Closed)
+2083.590 Verbose RouterBase.cpp:63: Finishing router thread.
+2083.595 Info UDPSocket.cpp:206: Closing socket
+2083.595 Info UDPSocket.cpp:236: Socket closed
+2083.596 Goodbye
